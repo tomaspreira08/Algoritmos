@@ -1,0 +1,7 @@
+body {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.pagina-button{
+    float: right; /* Alinha o botão à direita */
+}
