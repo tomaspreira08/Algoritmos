@@ -4,18 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Variáveis e constantes</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <center><h1>Variáveis</h1><br> </center>
+    <button id="toggleModePage2" class="pagina-button">
+        <img id="lampIcon" src="Imágens/lampada off.png" alt="Light Bulb" style="border: none;">
+    </button>
+    <br>
+    <div>
+    <a href="index.html"><button class="pagina-button-2">Página pricipal</button></a>
+    </div>
+    
+    
+
+    <center><h1>Constantes e Variáveis</h1></center>
+    <h1>Variáveis</h1><br> 
     <h2>
 Definição: Uma variável é um espaço de armazenamento com um nome simbólico (um identificador) e um tipo associado. O valor armazenado em uma variável pode ser modificado durante a execução do programa.<br>
 <br>
 Exemplo em Python:<br>
-<img src="Imágens/variaveis.png" width="500">
-
-
-
+<img src="Imágens/variaveis.png" width="500"> <br>
+<br>
+No exemplo acima, idade e nome são variáveis que armazenam um valor inteiro e uma cadeia de caracteres, respectivamente. O valor dessas variáveis pode ser alterado ao longo do programa. <br>
 </h2>
+<h1>Constantes</h1><br>
+<h2>
+Definição: Uma constante é um valor que não pode ser alterado durante a execução do programa. Geralmente, as constantes são usadas para representar valores fixos e conhecidos que não devem ser modificados.<br>
+<br>
+Exemplo em C:<br>
+<img src="Imágens/constantes.png" width="500"><br>
+<br>
+Neste exemplo, PI é uma constante que representa o valor de π (pi). O uso da palavra-chave const indica que o valor da variável não pode ser alterado após a sua inicialização.<br>
+<br>
+</h2>
+<h1>Diferenças</h1><br>
+<h2>
+<ol>
+   <li> Mutabilidade: Variáveis podem ser modificadas ao longo do programa, enquanto constantes não podem ser alteradas após a sua atribuição inicial.<br> </li>
+<br>
+    <li>Declaração e Inicialização: As variáveis geralmente precisam ser declaradas e inicializadas explicitamente, enquanto as constantes, dependendo da linguagem, podem exigir apenas a inicialização.<br> </li>
+<br>
+    <li>Uso e Intenção: O uso de constantes é comum para valores que não devem ser alterados e que têm um significado fixo no contexto do programa. Variáveis, por outro lado, são usadas para armazenar valores que podem mudar.<br></li>
+</ol>
+Exemplo de Boa Prática:<br>
+<img src="Imágens/difereças.png" width="500"><br>
+<br>
+Essa distinção entre constantes e variáveis é importante para manter o código claro, legível e para evitar erros inadvertidos ao tentar modificar valores que deveriam ser fixos. Em alguns casos, linguagens de programação podem impor regras estritas para constantes, enquanto outras oferecem flexibilidade.
+</h2>
+<br>
+<br>
+<br>
+
+<script src="scriptPage2.js"></script>
 
 </body>
 </html>

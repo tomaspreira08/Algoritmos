@@ -1,7 +1,71 @@
 body {
     margin-left: 100px;
     margin-right: 100px;
+    transition: background-image 0.5s;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+
 }
-.pagina-button{
+.pagina-button {
     float: right; /* Alinha o botão à direita */
+    margin-top: 0px;
+    background-color: red;
+    color: #fff;
+    width: 100px; /* Ajuste o valor conforme necessário para a largura desejada */
+    height: 40px; /* Ajuste o valor conforme necessário para a altura desejada */
+    border-radius: 10px; /* Adicione bordas arredondadas, se desejar */
 }
+
+.pagina-button-2{
+    position: absolute;
+    top: 10px; /* Ajuste o valor conforme necessário para mover para cima */
+    left: 10px; /* Ajuste o valor conforme necessário para mover para a esquerda */
+    background-color: red;
+    color: #fff;
+    width: 100px; /* Ajuste o valor conforme necessário para a largura desejada */
+    height: 40px; /* Ajuste o valor conforme necessário para a altura desejada */
+    border-radius: 10px; /* Adicione bordas arredondadas, se desejar */
+}
+
+.light-mode {
+    background-image: url(Imágens/light\ mode.gif); /* Cor de fundo para o modo claro */
+    color: #000; /* Cor do texto para o modo claro */
+}
+
+.dark-mode {
+    background-image: url(Imágens/darck\ mode.gif); /* Cor de fundo para o modo escuro */
+    color: #fff; /* Cor do texto para o modo escuro */
+}
+#toggleModePage2 {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    margin: 0px;
+    border: none;
+    background: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px; /* Ajuste o valor conforme necessário para o arredondamento desejado */
+}
+#toggleModePage1 {
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    margin: 0px;
+    border: none;
+    background: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px; /* Ajuste o valor conforme necessário para o arredondamento desejado */
+}
+
+
+#lampIcon {
+    width: 30px !important;
+    height: 30px !important;
+    margin-right: 5px !important;
+    border: none !important;
+}
+
